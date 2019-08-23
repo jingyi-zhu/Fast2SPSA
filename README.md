@@ -1,0 +1,2 @@
+# Fast2SPSA
+The MATLAB code below implements the second-order SPSA (simultaneous perturbation stochastic approximation) and second-order SG (stochastic gradient) in an efficient manner, such that the FLOPS-per-iteration is reduced from $O(p^3)$ to $O(p^2)$ where $p$ is the dimension of the underlying parameter. See more details in "Efficient Implementation of Second-Order Stochastic Approximation Algorithms in High-Dimensional Problems" (to appear in IEEE TNNLS). 
